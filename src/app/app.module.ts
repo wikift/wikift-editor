@@ -19,13 +19,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { WikiftEditorModule } from '../directives/wikift-editor/wikift-editor.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    WikiftEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
