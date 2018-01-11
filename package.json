@@ -1,7 +1,7 @@
 {
   "name": "wikift-editor",
-  "version": "0.0.0",
-  "license": "MIT",
+  "version": "1.0.0",
+  "license": "Apache",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
